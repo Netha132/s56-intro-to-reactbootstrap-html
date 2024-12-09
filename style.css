@@ -1,0 +1,156 @@
+.body {
+  background-color: #271811;
+}
+
+.logIn {
+  background-color: burlywood;
+  border: 2px solid #000;
+  font-size: 2rem;
+  padding: 30px;
+}
+
+body {
+  background-color: #9cf0c1;
+}
+
+h1 {
+  color: #b46bec;
+  background-color: brown;
+  font-size: 4rem;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+div ul li {
+  font-size: 2rem;
+}
+
+ol li {
+  font-family: cursive;
+  background: #b46bec;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ol li:hover {
+  background-color: #8b0ced;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #A885EE;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  background-color: #69359C;
+  color: #fff;
+  transform: scale(1.1);
+  background-image: url(./images/logo.png);
+  background-position: center;
+}
+
+.card2 {
+  background-color: #CADCFC;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.card2:hover {
+  background-color: #00246B;
+  color: #fff;
+  transform: scale(1.1);
+  background-image: url(./images/logo.png);
+  background-position: center;
+}
+
+.card3 {
+  background-color: #97BC62;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.card3:hover {
+  background-color: #2C5F2D;
+  color: #fff;
+  transform: scale(1.1);
+  background-image: url(./images/logo.png);
+  background-position: center;
+}
+
+.card4 {
+  background-color: #C4DFE6;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.card4:hover {
+  background-color: #66A5AD;
+  color: #fff;
+  transform: scale(1.1);
+  background-image: url(./images/logo.png);
+  background-position: center;
+}
+
+.card5 {
+  background-color: #FA6775;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.card5:hover {
+  background-color: #F52549;
+  color: #fff;
+  transform: scale(1.1);
+  background-image: url(./images/logo.png);
+  background-position: center;
+}
+
+.card-text, .card-text2, .card-text3, .card-text4, .card-text5, .card-title, .card-title2, .card-title3, .card-title4, .card-title5 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.card-subtitle, .card-subtitle2, .card-subtitle3, .card-subtitle4, .card-subtitle5 {
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.card-text, .card-text2, .card-text3, .card-text4, .card-text5 {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.card-link, .card-link2, .card-link3, .card-link4, .card-link5 {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

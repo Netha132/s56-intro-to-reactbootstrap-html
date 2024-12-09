@@ -1,0 +1,128 @@
+@import "./login";
+
+$bgColor:#9cf0c1;
+$color:#b46bec;
+$border:2px solid #000;
+$pad:10px;
+$fs:4rem;
+$tAline:center;
+
+
+
+body{
+    background-color: $bgColor;
+}
+h1{
+    color:$color;
+    background-color: brown;
+    font-size: $fs;
+    border: $border;
+    text-align: $tAline;
+    padding: $pad;
+}
+
+div{
+    ul{
+        li{
+            font-size: 2rem;
+        }
+    }
+}
+
+ol{
+    li{
+        font-family:cursive;
+        background: #b46bec;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+ol{
+    li:hover{
+        background-color: #8b0ced;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+@mixin cardTheme($bgc,$col,$bor,$br,$inblk,$mar,$trans){
+    background-color: $bgc;
+    color: $col;
+    border: $bor;
+    border-radius: $br;
+    display: $inblk;
+    margin: $mar;
+    transition: $trans;
+}
+@mixin cardHover($bgch,$colh,$transh,$bgImg,$bgImgpos){
+    background-color: $bgch;
+    color: $colh;
+    transform: $transh;
+    background-image: $bgImg;
+    background-position: $bgImgpos;
+}
+
+.card{
+    @include cardTheme(#A885EE,#000,2px solid #000,10px ,inline-block,5px,0.5s ease)
+}
+.card:hover{
+    @include cardHover(#69359C,#fff ,scale(1.1),url(./images/logo.png),center)
+}
+
+
+.card2{
+    @include cardTheme(#CADCFC,#000,2px solid #000,10px ,inline-block,5px,0.5s ease)
+}
+.card2:hover{
+    @include cardHover(  #00246B,#fff ,scale(1.1),url(./images/logo.png),center)
+}
+
+
+.card3{
+    @include cardTheme(#97BC62,#000,2px solid #000,10px ,inline-block,5px,0.5s ease)
+}
+.card3:hover{
+    @include cardHover( #2C5F2D,#fff ,scale(1.1),url(./images/logo.png),center)
+}
+
+
+.card4{
+    @include cardTheme( #C4DFE6,#000,2px solid #000,10px ,inline-block,5px,0.5s ease)
+}
+.card4:hover{
+    @include cardHover(#66A5AD,#fff ,scale(1.1),url(./images/logo.png),center)
+}
+
+.card5{
+    @include cardTheme(#FA6775,#000,2px solid #000,10px ,inline-block,5px,0.5s ease)   
+}
+.card5:hover{
+    @include cardHover(#F52549,#fff ,scale(1.1),url(./images/logo.png),center)
+}
+
+%cardText{
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.card-title,.card-title2,.card-title3,.card-title4,.card-title5{
+    @extend %cardText;
+}
+.card-subtitle,.card-subtitle2,.card-subtitle3,.card-subtitle4,.card-subtitle5{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.card-text,.card-text2,.card-text3,.card-text4,.card-text5{
+    @extend %cardText;
+    font-size: 14px;
+    text-align: justify;
+}
+.card-link,.card-link2,.card-link3,.card-link4,.card-link5{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #000;
+}
